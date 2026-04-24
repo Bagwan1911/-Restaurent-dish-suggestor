@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Model / embeddings cache
+cache/
+models/
+faiss_index/
+*.index
+
+# HuggingFace cache
+.huggingface/
+.cache/
+
+# Data files (optional if not pushing csv)
+data/*.csv
+
+# Ollama local files (optional)
+ollama_models/
+
+# Build files
+build/
+dist/
+
+# SQLite / DB
+*.db
